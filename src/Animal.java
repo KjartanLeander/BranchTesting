@@ -3,6 +3,6 @@ public abstract class Animal {
 
      public abstract void makeSound();
 
-     public abstract Boolean eatFood(String foodType);
+     public abstract Boolean eat(String foodType);
 }
 
