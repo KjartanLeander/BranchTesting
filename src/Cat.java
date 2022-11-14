@@ -1,4 +1,4 @@
-public class Cat extends Animal{
+public class Cat extends Animal {
 
     @Override
     public void makeSound() {
@@ -8,5 +8,13 @@ public class Cat extends Animal{
     @Override
     public Boolean eat(String foodType) {
         return true;
+    }
+
+    @Override
+    public void showMood(boolean mood) {
+        if (mood == true)
+            System.out.println("Spinder");
+         else
+            System.out.println("hvæser");
     }
 }
